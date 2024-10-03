@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hf-gemma2jpn"
+version = "0.1.0"
+description = ""
+authors = ["Shuichi Kataoka <shu01k9@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = "^4.45.1"
+accelerate = "^0.34.2"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
